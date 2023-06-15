@@ -1,2 +1,23 @@
 /* PHASE 1: Header */
 
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+header {
+    display: block;
+    background-color: #f00;
+    color: #fff;
+    height: 200px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 900px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
