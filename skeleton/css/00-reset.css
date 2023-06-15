@@ -18,6 +18,8 @@ ul {
 
 img {
     display: block;
+    width: 100%
+    height: auto;
 }
 
 input[type="password"],
@@ -26,10 +28,10 @@ input[type="text"],
 input[type="submit"],
 textarea,
 button {
-
+    appearance: none;
 }
 
 button,
 input[type="submit"] {
-
+    cursor: pointer;
 }
